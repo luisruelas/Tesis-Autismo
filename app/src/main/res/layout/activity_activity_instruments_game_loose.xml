@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgtierrasinnave"
+    android:gravity="bottom|right"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="com.example.ruelas.tesis.Games.InstrumentsGame.ActivityInstrumentsGameWin">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="top"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="@dimen/textglobewidth"
+        android:layout_height="wrap_content"
+        android:text="@string/incorrect"
+        android:padding="@dimen/tvpadding"
+        android:background="@drawable/globodetextobg"/>
+    <ImageView
+        android:layout_width="@dimen/eddysaludandowidth"
+        android:background="@drawable/eddytriste"
+        android:layout_height="@dimen/eddysaludandoheight" />
+        <Button
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_width="@dimen/nextbuttonwidth"
+            android:layout_height="@dimen/nextbuttonheight"
+            android:background="@drawable/btright"
+            android:onClick="gotoInstrumentsGame"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btheight">50dp</dimen>
+    <dimen name="eddysaludandowidth">100dp</dimen>
+    <dimen name="eddysaludandoheight">120dp</dimen>
+    <dimen name="textglobewidth">150dp</dimen>
+    <dimen name="piddingtopinstrument">10dp</dimen>
+    <dimen name="nextbuttonwidth">75dp</dimen>
+    <dimen name="nextbuttonheight">75dp</dimen>
+    <dimen name="separationamongbuttonsmenu2">25dp</dimen>
+    <dimen name="separationamongbuttonsmenu1">15dp</dimen>
+    <dimen name="tvpadding">5dp</dimen>
+    <dimen name="coinwidth">75dp</dimen>
+</resources>

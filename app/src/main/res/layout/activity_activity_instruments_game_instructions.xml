@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgtierrasinnave"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/piddingtopinstrument"
+    android:weightSum="10"
+    tools:context=".Games.InstrumentsGame.ActivityInstrumentsGameInstructions">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_weight="6">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/btmarimba"
+                        android:layout_width="100dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="7"
+                        android:background="@drawable/marimba" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/tvmarimba"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:background="@drawable/btmarimba" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/bttambor"
+                        android:layout_width="100dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="7"
+                        android:background="@drawable/tambor" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/tvtambor"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:background="@drawable/bttambor" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/btmaracas"
+                        android:layout_width="100dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="7"
+                        android:background="@drawable/maracas" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/tvmaracas"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:background="@drawable/btmaracas" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/btguitarra"
+                        android:layout_width="100dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="7"
+                        android:background="@drawable/guitarra" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/tvguitarra"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:background="@drawable/btguitarra" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:weightSum="10"></LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.8"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/tvpadding"
+                android:background="@drawable/globodetextobg"
+                android:text="@string/presionaparaoir">
+
+            </TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/eddysaludandowidth"
+            android:layout_height="match_parent"
+            android:background="@drawable/eddybrazosabajo" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="@dimen/nextbuttonheight"
+            android:layout_height="@dimen/nextbuttonheight"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btright"
+            android:onClick="toInstrumentsGame"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruelas.tesis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Menus.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartAnimation.ActivityStartAnimation1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StartAnimation.ActivityStartAnimation2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StartAnimation.ActivityStartAnimation3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StartAnimation.ActivityStartAnimation4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StartAnimation.ActivityStartAnimation5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menus.SubjectsMenuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.InstrumentsGame.ActivityInstrumentsGameAnimation1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.InstrumentsGame.ActivityInstrumentsGameInstructions"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.InstrumentsGame.ActivityInstrumentsGame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.InstrumentsGame.ActivityInstrumentsGameWin"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.InstrumentsGame.ActivityInstrumentsGameLoose"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.HousesGame.ActivityHouseGameAnimation1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.HousesGame.ActivityHouseGameInstructions"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".Games.HousesGame.ActivityHouseGame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.HousesGame.ActivityHouseGameWinLoose"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

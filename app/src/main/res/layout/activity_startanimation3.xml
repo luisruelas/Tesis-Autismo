@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|right"
+    android:background="@drawable/bgearthbackground"
+    tools:context=".StartAnimation.ActivityStartAnimation3"
+    android:id="@+id/rlanimation1container">
+    <ImageView
+        android:id="@+id/ivanim3cohete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/naveespacialinclinada"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btright"
+        android:onClick="toAnimation4"
+        android:id="@+id/btanimation3next"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</LinearLayout>

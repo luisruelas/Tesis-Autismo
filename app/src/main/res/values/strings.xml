@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tesis</string>
+    <string name="startanimation1">Hola! Soy Eddy, un extraterrestre muy curioso. Quiero descubrir y aprender todo sobre los planetas y, para lograrlo, necesitaré de tu ayuda.</string>
+    <string name="startanimation2">¿Estás listo para comenzar nuestro viaje</string>
+    <string name="anim4string">¡Bienvenido al planeta tierra! Empecemos nuestra aventura.</string>
+    <string name="anim5string">¿Qué materia te gustaría ver primero?</string>
+    <string name="presionaparaoir">Presiona los instrumentos para esuchar su sonido</string>
+    <string name="comenzemosconarte">Bien!, comenzemos con arte</string>
+    <string name="seleccionaintrumento">¿Qué instrumento hace este sonido</string>
+    <string name="incorrect">Incorrecto, vuelve a intentarlo</string>
+    <string name="hola">Hola! Soy Eddy, un extraterrestre muy curioso. Quiero descubrir y aprender todo sobre los planetas y para lograrlo necesitaré de tu ayuda.</string>
+    <string name="instruccionescasas">Ves las casa de ahí atrás¿ Cada una tiene un color diferente.</string>
+    <string name="presionaparaoircasas">Presiona para escuchar.</string>
+    <string name="incorrecthouse">Incorrecto, inténtalo nuevamente</string>
+</resources>

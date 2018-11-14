@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bganimationspace"
+    tools:context=".StartAnimation.ActivityStartAnimation2"
+    android:id="@+id/rlanimation1container">
+    <ImageView
+        android:layout_width="@dimen/eddysaludandowidth"
+        android:layout_height="@dimen/eddysaludandoheight"
+        android:background="@drawable/eddysaludando"
+        android:id="@+id/iveddysaludando"
+        android:paddingLeft="10dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="@string/startanimation2"
+        android:layout_width="@dimen/textglobewidth"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivglobodetexto"
+        android:padding="@dimen/tvpadding"
+        android:background="@drawable/globodetextobg"
+        android:layout_above="@+id/iveddysaludando"
+        android:layout_toRightOf="@+id/iveddysaludando"
+        android:layout_toEndOf="@+id/iveddysaludando" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="toAnimation3"
+        android:background="@drawable/btright"
+        android:id="@+id/button" />
+</RelativeLayout>

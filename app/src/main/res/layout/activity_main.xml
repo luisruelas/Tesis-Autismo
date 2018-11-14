@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmainmenu"
+    tools:context=".Menus.MainActivity"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="0dp">
+        <Button
+            android:id="@+id/btmainmenujugar"
+        android:layout_height="@dimen/btheight"
+        android:layout_width="match_parent"
+        android:background="@drawable/btjugar"
+            android:layout_marginBottom="@dimen/separationamongbuttonsmenu1"/>
+        <Button
+            android:id="@+id/btmainmenuniveles"
+            android:layout_height="@dimen/btheight"
+            android:layout_width="match_parent"
+            android:background="@drawable/btniveles"
+            android:layout_marginBottom="@dimen/separationamongbuttonsmenu1"/>
+        <Button
+            android:id="@+id/btmainmenutienda"
+            android:layout_height="@dimen/btheight"
+            android:layout_width="match_parent"
+            android:background="@drawable/bttienda"
+            android:layout_marginBottom="@dimen/separationamongbuttonsmenu1"/>
+    </LinearLayout>
+</LinearLayout>
